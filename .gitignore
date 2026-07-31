@@ -1,0 +1,30 @@
+# Virtual environments
+mnist_env/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# TensorFlow temporary/cache files
+*.pb
+checkpoint
+*.ckpt
